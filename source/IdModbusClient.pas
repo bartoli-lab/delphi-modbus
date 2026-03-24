@@ -190,7 +190,8 @@ begin
   FErrorCode := ErrorCode;
   FResponseBuffer := ResponseBuffer;
   FOnResponseError := OnResponseError;
-  Resume;
+//Resume; -- [dcc32 Warning] IdModbusClient.pas(193): W1000 Symbol 'Resume' is deprecated
+  Start();
 end;
 
 
