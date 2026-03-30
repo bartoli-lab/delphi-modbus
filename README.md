@@ -1,6 +1,5 @@
 # delphi-modbus
-Delphi ModbusTCP components
-
+Delphi ModbusTCP components  
 
 Downloads are available [here](https://github.com/coassoftwaresystems/delphi-modbus/releases)
 
